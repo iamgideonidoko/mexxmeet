@@ -76,7 +76,9 @@ typings/
 .cache
 
 # Next.js build output
-.next
+/.next/
+/out/
+
 
 # Nuxt.js build / generate output
 .nuxt
@@ -102,3 +104,28 @@ dist
 
 # TernJS port file
 .tern-port
+
+# misc
+.DS_Store
+*.pem
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+# next-pwa
+/public/workbox-*.js
+/public/sw.js
+
+# prefer yarn than npm
+package-lock.json
+
+report.*.json
+
+# .vscode Debugging
+.vscode/*-debug-profile
